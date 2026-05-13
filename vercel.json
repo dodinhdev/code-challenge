@@ -1,0 +1,8 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "vite",
+  "installCommand": "cd src/problem2 && npm install",
+  "buildCommand": "cd src/problem2 && npm run build",
+  "outputDirectory": "src/problem2/dist",
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+}
